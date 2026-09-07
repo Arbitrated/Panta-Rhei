@@ -18,10 +18,6 @@
         Ethanol: 0.12
         Pomelustine: 0.5
         Blood: 0.07
-      effects:
-      - &defaultSatiateThirst
-        !type:SatiateThirst
-          factor: 2
 
 - type: reagent
   id: ABLustine
@@ -42,7 +38,6 @@
       metabolites:
         Ethanol: 0.12
         Pomelustine: 0.5
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: Anisette
@@ -56,7 +51,6 @@
     Digestion:
       metabolites:
         Ethanol: 0.04
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: AppleberryFizz
@@ -92,7 +86,6 @@
       metabolites:
         Ethanol: 0.12
         Cum: 0.3
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: BethanysCumLust
@@ -114,7 +107,6 @@
         Ethanol: 0.12
         Cum: 0.3
         Pomelustine: 0.5
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: BethanysSluttyCumLust
@@ -137,7 +129,6 @@
         Pomelustine: 0.3
         Philterex: 0.3
         Cum: 0.3
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: BlueBaller
@@ -158,7 +149,6 @@
       metabolites:
         Ethanol: 0.12
         Pomelustine: 0.5
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: CafeDeCacao
@@ -178,7 +168,6 @@
     Digestion:
       metabolites:
         Ethanol: 0.08
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: CalicoSunrise
@@ -261,7 +250,6 @@
         Pomelustine: 0.5
         Cum: 0.16
         Blood: 0.6
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: DirtyWastelander
@@ -281,7 +269,6 @@
     Digestion:
       metabolites:
         Ethanol: 0.14
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: DoubleCreamBlaster
@@ -302,7 +289,6 @@
       metabolites:
         Ethanol: 0.12
         Cum: 0.3
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: DragonsBlood
@@ -323,7 +309,6 @@
       metabolites:
         Ethanol: 0.1
         Blood: 0.3
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: DragonsBreath
@@ -343,7 +328,6 @@
     Digestion:
       metabolites:
         Ethanol: 0.14
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: DragonsSeed
@@ -364,7 +348,6 @@
       metabolites:
         Ethanol: 0.14
         Cum: 0.24
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: EmeraldSwinger
@@ -384,7 +367,6 @@
     Digestion:
       metabolites:
         Ethanol: 0.08
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: Eminence
@@ -404,7 +386,6 @@
     Digestion:
       metabolites:
         Ethanol: 0.3
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: GoldbloomSpecial
@@ -456,7 +437,6 @@
       metabolites:
         Ethanol: 0.14
         Cum: 0.3
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: HolyVice
@@ -477,7 +457,6 @@
       metabolites:
         Ethanol: 0.3
         Blood: 0.3
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: HornyStallion
@@ -498,7 +477,6 @@
       metabolites:
         Ethanol: 0.12
         Libidozenithizine: 0.5
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: KoboldKooler
@@ -534,7 +512,6 @@
       metabolites:
         Ethanol: 0.12
         Cum: 0.3
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: Lamplight
@@ -553,7 +530,9 @@
   metabolisms:
     Digestion:
       effects:
-      - *defaultSatiateThirst
+      - &defaultSatiateThirst # Since we're overriding the entire effects list, we have to add it back
+        !type:SatiateThirst
+          factor: 2
       - !type:AdjustReagent
         conditions:
         - !type:ReagentCondition
@@ -608,7 +587,6 @@
       metabolites:
         Ethanol: 0.006
         Pomelustine: 0.3
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: MarieJulep
@@ -645,7 +623,6 @@
       metabolites:
         Ethanol: 0.12
         Cum: 0.3
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: MossBloodShot
@@ -665,7 +642,6 @@
     Digestion:
       metabolites:
         Ethanol: 0.06
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: NumberOne
@@ -734,7 +710,6 @@
       metabolites:
         Ethanol: 0.1
         Cum: 0.2
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: Pomonade
@@ -769,7 +744,6 @@
     Digestion:
       metabolites:
         Ethanol: 0.06
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: PomTwist
@@ -789,7 +763,6 @@
     Digestion:
       metabolites:
         Pomelustine: 0.3
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: PrairieOyster
@@ -809,7 +782,6 @@
     Digestion:
       metabolites:
         Ethanol: 0.08
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: PrisonWine
@@ -844,7 +816,6 @@
     Digestion:
       metabolites:
         Cum: 0.24
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: RandyStallion
@@ -865,7 +836,6 @@
       metabolites:
         Ethanol: 0.12
         Pomelustine: 0.3
-      effects: [ *defaultSatiateThirst ]
 
 
 - type: reagent
@@ -902,7 +872,6 @@
     Digestion:
       metabolites:
         Ethanol: 0.4
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: SemenBomb
@@ -923,7 +892,6 @@
       metabolites:
         Ethanol: 0.08
         Cum: 0.3
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: SemenHemorrhage
@@ -944,7 +912,6 @@
       metabolites:
         Ethanol: 0.12
         Cum: 0.3
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: SilverStallion
@@ -965,7 +932,6 @@
       metabolites:
         Ethanol: 0.2
         Cum: 0.3
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: SlimesDelight
@@ -1024,7 +990,6 @@
       metabolites:
         Ethanol: 0.12
         Cum: 0.24
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: SpecialSundae
@@ -1046,7 +1011,6 @@
         Ethanol: 0.12
         Pomelustine: 0.1
         Cum: 0.3
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: SyndicatesOverseer
@@ -1067,7 +1031,6 @@
       metabolites:
         Ethanol: 0.16
         Blood: 0.16
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: TripleCitrus
@@ -1106,7 +1069,8 @@
       - *defaultSatiateThirst
       - !type:Electrocute # funny voltage
         electrocuteTime: 0.3
-        probability: 0.2
+        probability: 0.05
+        shockDamage: 1
 
 - type: reagent
   id: WakeUpJuice
@@ -1142,7 +1106,6 @@
       metabolites:
         Ethanol: 0.14
         Cum: 0.3
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: TheWaterslide
@@ -1163,7 +1126,6 @@
       metabolites:
         Ethanol: 0.14
         Cum: 0.3
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: YeOlHandy
@@ -1183,7 +1145,6 @@
     Digestion:
       metabolites:
         Ethanol: 0.1
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: TheCuteCaptain
@@ -1204,7 +1165,6 @@
       metabolites:
         Ethanol: 0.12
         Pomelustine: 0.25
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: AxelsAle
@@ -1225,7 +1185,6 @@
       metabolites:
         Ethanol: 0.2
         Pomelustine: 0.5
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: JennTonic
@@ -1245,7 +1204,6 @@
     Digestion:
       metabolites:
         Ethanol: 0.16
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: Hallelujah
@@ -1280,7 +1238,6 @@
     Digestion:
       metabolites:
         Ethanol: 0.16
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: GinandPussy
@@ -1300,7 +1257,6 @@
     Digestion:
       metabolites:
         Ethanol: 0.3
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: PussyTonic
@@ -1337,7 +1293,6 @@
     Digestion:
       metabolites:
         Ethanol: 0.3
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: HarpySnowfall
@@ -1357,7 +1312,6 @@
     Digestion:
       metabolites:
         Ethanol: 0.14
-      effects: [ *defaultSatiateThirst ]
 
 - type: reagent
   id: StrawberryPilk

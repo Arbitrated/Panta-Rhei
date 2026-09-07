@@ -1,7 +1,7 @@
 # Delta-v seems to have nuked their unknown shuttle table, so we make our own
 - type: entityTable
   id: UnknownShuttlesTable
-  table: !type:GroupSelector
+  table: !type:AllSelector
     children:
     - id: UnknownShuttleSampleCollector
     - id: UnknownShuttleCasinoManager

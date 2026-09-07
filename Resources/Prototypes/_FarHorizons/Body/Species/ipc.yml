@@ -78,6 +78,7 @@
     - AnomalyHost
     - IPC
     - SiliconEmotes # Euph
+    - SiliconMob # Euph - weldbot healable
   - type: Damageable
     damageContainer: Robotic
     damageModifierSet: IPC

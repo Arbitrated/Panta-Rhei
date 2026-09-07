@@ -19,25 +19,9 @@
   color: "#deebff"
   viscosity: 0.15
   metabolisms:
-    Bloodstream:
-      metabolismRate: 0.1
-      effects:
-      - !type:PopupMessage
-        type: Local
-        visualType: Medium
-        messages:
-          - "reagent-effect-aphrodisiac-mild1"
-          - "reagent-effect-aphrodisiac-mild2"
-          - "reagent-effect-aphrodisiac-mild3"
-          - "reagent-effect-aphrodisiac-mild4"
-          - "reagent-effect-aphrodisiac-mild5"
-        probability: 0.02
-        conditions:
-          - !type:ReagentCondition
-            reagent: NikkosNaughtyNectar
-            max: 50
-          - !type:ConsentCondition
-            consent: Aphrodisiacs
+    Digestion:
+      metabolites:
+        Pomelustine: 0.3
 
 - type: reagent
   id: BoykissersEnergy
@@ -81,7 +65,7 @@
 
 - type: reagent # You may ask me why, but I got sick of seeing green come of cream pies.
   id: BananaCreamPie
-  parent: [BaseViscous, Nutriment]
+  parent: [BaseViscous]
   name: reagent-name-bananacreampie
   desc: reagent-desc-bananacreampie
   physicalDesc: reagent-physical-desc-creamy
