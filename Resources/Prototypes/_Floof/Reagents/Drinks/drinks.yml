@@ -32,9 +32,11 @@
   flavor: nutty
   color: "#FD3DB5"
   metabolisms:
-    Bloodstream:
+    Digestion: # We have to do this in digestion because otherwise it won't reach bloodstream
       metabolismRate: 0.25
       effects:
+      - !type:SatiateThirst
+        factor: 3
       - !type:MovementSpeedModifier
         walkSpeedModifier: 1.15
         sprintSpeedModifier: 1.15
