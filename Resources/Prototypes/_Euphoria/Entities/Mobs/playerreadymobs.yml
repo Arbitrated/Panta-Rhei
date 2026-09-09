@@ -6,6 +6,10 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Hands
+      activeHandId: Hand
+      hands:
+        Hand:
+          location: Left
     - type: ComplexInteraction
     - type: Inventory
       templateId: nakedcrew
