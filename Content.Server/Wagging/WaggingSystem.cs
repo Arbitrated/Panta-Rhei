@@ -29,7 +29,8 @@ public sealed class WaggingSystem : EntitySystem
         base.Initialize();
 
         SubscribeLocalEvent<WaggingComponent, MapInitEvent>(OnWaggingMapInit);
-        SubscribeLocalEvent<WaggingComponent, AppearanceLoadedEvent>(OnWaggingMapInit); // Floofstation - listen on profile load as well as map init
+        SubscribeLocalEvent<WaggingComponent, ApplyOrganProfileDataEvent>(OnWaggingMapInit); // Floofstation - listen on profile load as well as map init
+        SubscribeLocalEvent<WaggingComponent, ApplyOrganMarkingsEvent>(OnWaggingMapInit, after: [typeof(SharedVisualBodySystem)]); // Floofstation - listen on profile load as well as map init
         SubscribeLocalEvent<WaggingComponent, ComponentShutdown>(OnWaggingShutdown);
         SubscribeLocalEvent<WaggingComponent, ToggleActionEvent>(OnWaggingToggle);
         SubscribeLocalEvent<WaggingComponent, MobStateChangedEvent>(OnMobStateChanged);
