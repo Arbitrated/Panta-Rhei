@@ -6241,3 +6241,11 @@ Entries:
         weeks ago.
   id: 778
   time: '2026-09-29T11:52:33.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Fix
+      message: >-
+        Cows, Pigs and Chickens should not be able to eat wheat and other
+        veggies like they used to be able to.
+  id: 779
+  time: '2026-10-01T02:48:00.0000000+00:00'
