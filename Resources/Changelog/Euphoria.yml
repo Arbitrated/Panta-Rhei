@@ -6249,3 +6249,9 @@ Entries:
         veggies like they used to be able to.
   id: 779
   time: '2026-10-01T02:48:00.0000000+00:00'
+- author: badlanduser
+  changes:
+    - type: Add
+      message: Ported over Starlight's AI faces and holograms
+  id: 780
+  time: '2026-10-01T03:13:05.0000000+00:00'
