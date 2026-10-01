@@ -6255,3 +6255,9 @@ Entries:
       message: Ported over Starlight's AI faces and holograms
   id: 780
   time: '2026-10-01T03:13:05.0000000+00:00'
+- author: badlanduser
+  changes:
+    - type: Fix
+      message: Fixed walking mushroom ghostrole
+  id: 781
+  time: '2026-10-01T03:14:27.0000000+00:00'
