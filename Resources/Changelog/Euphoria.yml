@@ -6267,3 +6267,9 @@ Entries:
       message: Fixed diagnostic HUDs not showing IPC health.
   id: 782
   time: '2026-10-02T02:30:32.0000000+00:00'
+- author: Arbitrated
+  changes:
+    - type: Fix
+      message: Security Technician lockers now spawn with the correct tool belt.
+  id: 783
+  time: '2026-10-02T02:32:08.0000000+00:00'
