@@ -6279,3 +6279,11 @@ Entries:
       message: Add a subtle ass slapping interaction verb.
   id: 784
   time: '2026-10-02T04:08:33.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Fix
+      message: >-
+        The supermatter console should work again with out making your screen
+        turn into a strobe light.
+  id: 785
+  time: '2026-10-02T04:09:06.0000000+00:00'
