@@ -6308,3 +6308,11 @@ Entries:
       message: Chefs can now create monster bread, similar to bread dogs.
   id: 788
   time: '2026-10-04T03:00:42.0000000+00:00'
+- author: M3739
+  changes:
+    - type: Remove
+      message: >-
+        The Bwoink Hammer is no longer obtainable from the Prize Counter and
+        maintenance lockers.
+  id: 789
+  time: '2026-10-04T03:05:05.0000000+00:00'
