@@ -6302,3 +6302,9 @@ Entries:
         leash.
   id: 787
   time: '2026-10-04T02:21:38.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Add
+      message: Chefs can now create monster bread, similar to bread dogs.
+  id: 788
+  time: '2026-10-04T03:00:42.0000000+00:00'
