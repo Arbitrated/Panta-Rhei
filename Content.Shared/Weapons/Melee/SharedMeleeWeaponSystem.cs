@@ -761,18 +761,10 @@ public abstract class SharedMeleeWeaponSystem : EntitySystem
             _meleeSound.PlayHitSound(target, user, GetHighestDamageSound(appliedDamage, _protoManager), hitEvent.HitSoundOverride, component);
         }
 
-        if (targets.Count > 0)
+        if (appliedDamage.GetTotal() > FixedPoint2.Zero)
         {
-            if (appliedDamage.GetTotal() > FixedPoint2.Zero)
-            {
-                DoDamageEffect(targets, user, Transform(targets.First()));
-                DoScreenshake(meleeUid, damage, user, targets); // Starlight | ES Screenshake
-                ResetUndamagedSwingsCount((meleeUid, component));
-            }
-            else
-            {
-                UndamagedAttack((meleeUid, component), targets.First(), user);
-            }
+            DoDamageEffect(targets, user, Transform(targets.First()));
+            DoScreenshake(meleeUid, damage, user, targets); // Starlight | ES Screenshake
         }
 
         return true;
@@ -1090,7 +1082,7 @@ public abstract class SharedMeleeWeaponSystem : EntitySystem
     }
 
     //Starlight begin | ES Screenshake
-    private void DoScreenshake(EntityUid weapon, DamageSpecifier damage, EntityUid attacker, List<EntityUid> targets)
+    private void DoScreenshake(EntityUid weapon, DamageSpecifier damage, EntityUid attacker, IEnumerable<EntityUid> targets)
     {
         if(damage.GetTotal()>4) // only show to others if it hurts real bad // DeltaV - reduce from 8 to 4
         {
