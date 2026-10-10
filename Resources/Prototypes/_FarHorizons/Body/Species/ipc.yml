@@ -228,10 +228,10 @@
         damage: 400
       behaviors:
       - !type:GibBehavior { }
-    - trigger: # Euphoria - Tried to disable ashing by commenting everything here out but RT hates that, we're going to FUNCTIONALLY disable it instead. No other species can ash.
+    - trigger: 
         !type:DamageTypeTrigger
         damageType: Heat
-        damage: 250000 # Due to being extremely ash prone as a result of tempature mechanics. Also it's metal, that takes longer to melt.  # Euphoria - if you manage to take this much Heat in a round you probably earned that Round Removal
+        damage: 2500 # Due to being extremely ash prone as a result of tempature mechanics. Also it's metal, that takes longer to melt.
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawnInContainer: true
