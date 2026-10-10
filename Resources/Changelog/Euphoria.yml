@@ -6439,3 +6439,9 @@ Entries:
       message: Medical pouch in corpsman's colours.
   id: 801
   time: '2026-10-10T11:00:20.0000000+00:00'
+- author: Eagle0600
+  changes:
+    - type: Add
+      message: Two types of carpet crates orderable from logistics.
+  id: 802
+  time: '2026-10-10T11:01:44.0000000+00:00'
