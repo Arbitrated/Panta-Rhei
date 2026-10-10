@@ -6386,3 +6386,17 @@ Entries:
   changes: []
   id: 796
   time: '2026-10-10T10:52:01.0000000+00:00'
+- author: Arbitrated
+  changes:
+    - type: Add
+      message: Smoking and Drinking now satisfy addictions!
+    - type: Add
+      message: Added over 20 new addiction messages
+    - type: Remove
+      message: Removed the old, stereotyped addiction messages
+    - type: Fix
+      message: Fixed Nicotine not metabolizing properly
+    - type: Fix
+      message: Nicotine does damage again
+  id: 797
+  time: '2026-10-10T10:53:39.0000000+00:00'
