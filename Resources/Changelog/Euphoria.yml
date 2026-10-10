@@ -6425,3 +6425,11 @@ Entries:
         make you look taller now!
   id: 799
   time: '2026-10-10T10:55:43.0000000+00:00'
+- author: Arbitrated
+  changes:
+    - type: Tweak
+      message: >-
+        Portable Particle Decelerators slow you down less, shoot more quickly
+        and are much more effective at nullifying Singulooses and Teslooses. 
+  id: 800
+  time: '2026-10-10T10:59:39.0000000+00:00'
