@@ -6360,3 +6360,11 @@ Entries:
         presets.
   id: 793
   time: '2026-10-07T04:53:30.0000000+00:00'
+- author: P4nnant
+  changes:
+    - type: Add
+      message: >-
+        added Gnarp and Gleeble, funny alien cats that have a chance to spawn in
+        place of the CMO's cats
+  id: 794
+  time: '2026-10-10T00:57:55.0000000+00:00'
