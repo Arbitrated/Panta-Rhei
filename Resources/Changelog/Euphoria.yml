@@ -6368,3 +6368,17 @@ Entries:
         place of the CMO's cats
   id: 794
   time: '2026-10-10T00:57:55.0000000+00:00'
+- author: Arbitrated
+  changes:
+    - type: Fix
+      message: >-
+        Several chemicals work with pills, drinks, and food again, including
+        Aphrodisiacs, Painkillers, and Antidepressants
+    - type: Fix
+      message: Narcoleptics no longer are required to inject their medicine
+    - type: Fix
+      message: Caramexinin should work when mixed into drinks and food again
+    - type: Fix
+      message: Ambuzol and Ambuzol Plus now use YAML anchors instead of repeating code
+  id: 795
+  time: '2026-10-10T01:01:01.0000000+00:00'
