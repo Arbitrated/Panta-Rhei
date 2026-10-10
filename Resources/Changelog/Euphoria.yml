@@ -6417,3 +6417,11 @@ Entries:
         and the Full English Breakfast.
   id: 798
   time: '2026-10-10T10:54:57.0000000+00:00'
+- author: Barheru
+  changes:
+    - type: Tweak
+      message: >-
+        Ballet Heel Sprites are now more in line with other heels. They also
+        make you look taller now!
+  id: 799
+  time: '2026-10-10T10:55:43.0000000+00:00'
