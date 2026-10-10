@@ -6400,3 +6400,20 @@ Entries:
       message: Nicotine does damage again
   id: 797
   time: '2026-10-10T10:53:39.0000000+00:00'
+- author: PaperShadow
+  changes:
+    - type: Tweak
+      message: >-
+        The following food has gained the "Meat" tag and can now be eaten by
+        carnivorous crew: Bisque; Bowl of Hot Chili; Carp Sushi Roll; Carp Sushi
+        Roll Slice; Chili Con Carnival; Cold Chili; Donk Fish Stew; Full
+        American Breakfast; Full English Breakfast; Mulan Congee; Salmon Sushi
+        Roll; Salmon Sushi Roll Slice; Wing Fang Chu.
+    - type: Remove
+      message: Moth People can no longer eat Mulan Congee.
+    - type: Tweak
+      message: >-
+        Changed the flavor profile of the Bisque, the Full American Breakfast,
+        and the Full English Breakfast.
+  id: 798
+  time: '2026-10-10T10:54:57.0000000+00:00'
