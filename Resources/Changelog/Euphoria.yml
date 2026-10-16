@@ -6578,3 +6578,9 @@ Entries:
       message: Calico Sunrise no longer contains alcohol when it shouldn't
   id: 818
   time: '2026-10-16T02:36:38.0000000+00:00'
+- author: sprkl
+  changes:
+    - type: Tweak
+      message: The swimsuit can now be worn under clothes.
+  id: 819
+  time: '2026-10-16T07:50:12.0000000+00:00'
