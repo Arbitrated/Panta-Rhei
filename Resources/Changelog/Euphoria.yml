@@ -6572,3 +6572,9 @@ Entries:
       message: Sec roles should now have access to their senior outfits again.
   id: 817
   time: '2026-10-15T09:22:37.0000000+00:00'
+- author: ASaltySeabass
+  changes:
+    - type: Tweak
+      message: Calico Sunrise no longer contains alcohol when it shouldn't
+  id: 818
+  time: '2026-10-16T02:36:38.0000000+00:00'
