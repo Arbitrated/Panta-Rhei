@@ -6639,3 +6639,17 @@ Entries:
       message: Removed the technological progress lobby art
   id: 826
   time: '2026-10-21T09:24:36.0000000+00:00'
+- author: deltaSpawn0040
+  changes:
+    - type: Add
+      message: Partial Vampirism trait that lets you eat food.
+    - type: Add
+      message: Individual Blood Drinker and Siphon Fangs traits.
+    - type: Tweak
+      message: Vampires' stomachs remain the same size as the species'.
+    - type: Tweak
+      message: Vampires don't spill blood they try to drink while full.
+    - type: Fix
+      message: Slime People can take Vampirism traits.
+  id: 827
+  time: '2026-10-21T09:26:59.0000000+00:00'
