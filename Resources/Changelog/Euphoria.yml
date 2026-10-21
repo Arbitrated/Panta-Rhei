@@ -6673,3 +6673,9 @@ Entries:
       message: Changed some Deathsquad suit sprites, gave them thermals + nightvision.
   id: 830
   time: '2026-10-21T12:00:16.0000000+00:00'
+- author: kivdon
+  changes:
+    - type: Add
+      message: 'Added admin verb for instantly sending people to cryo. '
+  id: 831
+  time: '2026-10-21T12:01:11.0000000+00:00'
