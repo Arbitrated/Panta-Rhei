@@ -6679,3 +6679,9 @@ Entries:
       message: 'Added admin verb for instantly sending people to cryo. '
   id: 831
   time: '2026-10-21T12:01:11.0000000+00:00'
+- author: SyaoranFox
+  changes:
+    - type: Tweak
+      message: Rodentia can now eat chocolate and drink red bool.
+  id: 832
+  time: '2026-10-21T12:02:41.0000000+00:00'
