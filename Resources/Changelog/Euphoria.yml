@@ -6665,3 +6665,11 @@ Entries:
       message: Disabled the Glimmer Restyle rule from rolling.
   id: 829
   time: '2026-10-21T11:58:45.0000000+00:00'
+- author: IcarusianFolly
+  changes:
+    - type: Add
+      message: Solarian Alliance hardsuits and uniforms for events.
+    - type: Tweak
+      message: Changed some Deathsquad suit sprites, gave them thermals + nightvision.
+  id: 830
+  time: '2026-10-21T12:00:16.0000000+00:00'
