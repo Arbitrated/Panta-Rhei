@@ -6659,3 +6659,9 @@ Entries:
       message: Added hunger and thirst blindness traits.
   id: 828
   time: '2026-10-21T10:22:36.0000000+00:00'
+- author: IcarusianFolly
+  changes:
+    - type: Remove
+      message: Disabled the Glimmer Restyle rule from rolling.
+  id: 829
+  time: '2026-10-21T11:58:45.0000000+00:00'
