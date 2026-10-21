@@ -6633,3 +6633,9 @@ Entries:
       message: Tall Oval Ears
   id: 825
   time: '2026-10-20T12:25:36.0000000+00:00'
+- author: LillRatties
+  changes:
+    - type: Remove
+      message: Removed the technological progress lobby art
+  id: 826
+  time: '2026-10-21T09:24:36.0000000+00:00'
