@@ -6699,3 +6699,9 @@ Entries:
         machines. Give your friends uppies.
   id: 834
   time: '2026-10-23T07:37:43.0000000+00:00'
+- author: Brimcon
+  changes:
+    - type: Tweak
+      message: Adjusted oval ear sprites and fixed an associated error
+  id: 835
+  time: '2026-10-23T22:52:06.0000000+00:00'
