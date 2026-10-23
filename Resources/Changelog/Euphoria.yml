@@ -6705,3 +6705,13 @@ Entries:
       message: Adjusted oval ear sprites and fixed an associated error
   id: 835
   time: '2026-10-23T22:52:06.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: >-
+        Touching a hotplate/electric range should no longer make you unable to
+        have any ropes attached to you.
+    - type: Fix
+      message: Airlocks will no longer close on top of ropes.
+  id: 836
+  time: '2026-10-23T22:52:53.0000000+00:00'
