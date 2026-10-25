@@ -27,7 +27,7 @@
   flavor: medicine
   color: "#3a1d8a"
   metabolisms:
-    Bloodstream: &DyloveneMestabolism # Euphoria - Cigarette Compatibility Patch
+    Bloodstream: &DyloveneMetabolism # Euphoria - Cigarette Compatibility Patch
       effects:
       - !type:HealthChange
         damage:
@@ -66,7 +66,7 @@
         - !type:ReagentCondition
           reagent: Dylovene
           min: 15
-    Respiration: # Euphoria - Cigarette Compatibility Patch
+    Respiration: *DyloveneMetabolism # Euphoria - Cigarette Compatibility Patch
   plantMetabolism:
   - !type:PlantAdjustToxins
     amount: -10
