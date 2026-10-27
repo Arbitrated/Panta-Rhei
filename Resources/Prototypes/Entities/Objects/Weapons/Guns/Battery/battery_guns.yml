@@ -883,7 +883,8 @@
   - type: StaticPrice
     price: 100
   - type: Tag # Euphoria - Tagged as a Science Tool, like anomaly scanners.
-    tag: ScienceTool
+    tags:
+    - ScienceTool
 
 - type: entity
   parent: [WeaponPistolCHIMP, BaseSyndicateContraband]
