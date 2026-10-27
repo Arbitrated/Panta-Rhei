@@ -2,7 +2,7 @@
   id: WeaponBow # Used for bows.
 
 - type: Tag
-  id: WeaponEnergyLongarm # Used for energy longarms, such as laser rifles.
+  id: WeaponEnergyLong # Used for energy longarms, such as laser rifles.
 
 - type: Tag
   id: WeaponLauncher # Used for stuff like grenade and rocket launchers, force guns, and grappling guns.

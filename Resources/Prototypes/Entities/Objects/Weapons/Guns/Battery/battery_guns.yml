@@ -5,7 +5,7 @@
   components:
   - type: Tag # Euphoria - Setting up a tag.
     tags:
-    - WeaponEnergyLongarm
+    - WeaponEnergyLong
   - type: Sprite
   - type: Item
     size: Large # DeltaV - was Huge
