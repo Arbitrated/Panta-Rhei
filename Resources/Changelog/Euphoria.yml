@@ -6732,3 +6732,9 @@ Entries:
       message: 'Changed existing admeme creatures to be able to strip people. '
   id: 838
   time: '2026-10-26T08:45:11.0000000+00:00'
+- author: SyaoranFox
+  changes:
+    - type: Fix
+      message: Translators should toggle by click, Z, and on right click Activate.
+  id: 839
+  time: '2026-10-27T03:08:25.0000000+00:00'
