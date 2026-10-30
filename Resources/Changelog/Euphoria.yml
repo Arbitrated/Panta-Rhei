@@ -6796,3 +6796,11 @@ Entries:
         allulalo.
   id: 846
   time: '2026-10-30T11:58:16.0000000+00:00'
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: >-
+        Added Bax Shots, ask your local red Tajaran sample collector for a
+        glass!
+  id: 847
+  time: '2026-10-30T11:58:48.0000000+00:00'
