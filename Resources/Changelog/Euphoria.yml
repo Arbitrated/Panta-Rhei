@@ -6788,3 +6788,11 @@ Entries:
       message: Welding Gas Masks can be carried on utility belts.
   id: 845
   time: '2026-10-30T11:29:34.0000000+00:00'
+- author: Barheru
+  changes:
+    - type: Add
+      message: >-
+        Added honking and quacking for resomi. Added many bird sounds for
+        allulalo.
+  id: 846
+  time: '2026-10-30T11:58:16.0000000+00:00'
