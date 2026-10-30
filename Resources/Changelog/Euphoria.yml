@@ -6772,3 +6772,19 @@ Entries:
       message: All Rules are the same across all area's you can view them.
   id: 844
   time: '2026-10-30T11:27:21.0000000+00:00'
+- author: Arbitrated
+  changes:
+    - type: Add
+      message: Added "tags" to most weapons for future development.
+    - type: Add
+      message: >-
+        Added "tags" to most Science equipment, such as Anomaly Scanners and the
+        Microwave Emitter.
+    - type: Tweak
+      message: Utility Belts now can carry Science equipment.
+    - type: Tweak
+      message: The Mantis belts can now carry Science equipment.
+    - type: Fix
+      message: Welding Gas Masks can be carried on utility belts.
+  id: 845
+  time: '2026-10-30T11:29:34.0000000+00:00'
