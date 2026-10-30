@@ -6766,3 +6766,9 @@ Entries:
       message: Bubbly Nurse plushie
   id: 843
   time: '2026-10-28T08:46:20.0000000+00:00'
+- author: ScarlettJFG
+  changes:
+    - type: Fix
+      message: All Rules are the same across all area's you can view them.
+  id: 844
+  time: '2026-10-30T11:27:21.0000000+00:00'
